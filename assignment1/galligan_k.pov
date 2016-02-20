@@ -1,20 +1,22 @@
 #include "colors.inc"
-#include "textures.inc"
-#include "glass.inc"         
+#include "textures.inc"        
 #include "metals.inc"
+#include "woods.inc"
                
 background {
     colour Cyan
 }             
 
 camera {
-    location <2, 2, -5>
+    location <2, 6, -10>
     look_at <0, 0, 0>
 }
 
 light_source {
     <0, 10, -2>
     colour White
+    fade_distance 3
+    fade_power 2
 }
 
 plane {
@@ -76,22 +78,34 @@ plane {
         <0, 0, 0>, <0, -1.5, 0>, 0.59
         open  
     } 
-    
-    material {
-        M_Glass
-    }  
-            
-    pigment {
-        filter 0.7
+      
+    pigment{
+        rgbf <1.0, 1.0, 1.0, 0.6>
     }
 }
 
 #declare lightbulb = union {
     object { glass_part translate y * 2.2  }
     object { twisty_part }
-}   
+    light_source {
+        <0, 0, 0>, Yellow
+        translate y * 2.2  
+        fade_distance 10
+        fade_power 2 * sin(clock * 6 * pi) + 1
+    }
+}
+
+box {
+    <-1, -1, -1>, <1, 1, 1>
+    texture {
+        T_Wood1
+    }
+}     
 
 object {
-    lightbulb 
-    translate y * (-1.5)
+    lightbulb
+    translate y * -1.3
+    translate x * 3.5 
+    rotate <0, 360 * clock, 0>
 }
+
