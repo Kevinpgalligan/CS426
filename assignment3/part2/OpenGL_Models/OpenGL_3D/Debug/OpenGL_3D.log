@@ -1,0 +1,65 @@
+﻿Build started 4/21/2016 6:09:12 PM.
+     1>Project "X:\stuff\CS426\assignment3\part2\OpenGL_Models\OpenGL_3D\OpenGL_3D.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\OpenGL_3D.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IX:\stuff\CS426\assignment3\OpenGL_3D\OpenGL_3D\glm\gtc /IX:\stuff\CS426\assignment3\OpenGL_3D\OpenGL_3D\glm /IX:\stuff\CS426\assignment3\part2\OpenGL_Models\OpenGL_3D\glloadobj /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\OpenGL_3D.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt OpenGL_3D.cpp /clr:nostdlib 
+         OpenGL_3D.cpp
+     1>X:\stuff\CS426\assignment3\part2\OpenGL_Models\OpenGL_3D\glloadobj\glm.c(345): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>X:\stuff\CS426\assignment3\part2\OpenGL_Models\OpenGL_3D\glloadobj\glm.c(346): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>X:\stuff\CS426\assignment3\part2\OpenGL_Models\OpenGL_3D\glloadobj\glm.c(347): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>X:\stuff\CS426\assignment3\part2\OpenGL_Models\OpenGL_3D\glloadobj\glm.c(349): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>X:\stuff\CS426\assignment3\part2\OpenGL_Models\OpenGL_3D\glloadobj\glm.c(350): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>X:\stuff\CS426\assignment3\part2\OpenGL_Models\OpenGL_3D\glloadobj\glm.c(351): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>X:\stuff\CS426\assignment3\part2\OpenGL_Models\OpenGL_3D\glloadobj\glm.c(987): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>X:\stuff\CS426\assignment3\part2\OpenGL_Models\OpenGL_3D\glloadobj\glm.c(988): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>X:\stuff\CS426\assignment3\part2\OpenGL_Models\OpenGL_3D\glloadobj\glm.c(989): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>X:\stuff\CS426\assignment3\part2\OpenGL_Models\OpenGL_3D\glloadobj\glm.c(992): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>X:\stuff\CS426\assignment3\part2\OpenGL_Models\OpenGL_3D\glloadobj\glm.c(1194): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>X:\stuff\CS426\assignment3\part2\OpenGL_Models\OpenGL_3D\glloadobj\glm.c(1401): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>X:\stuff\CS426\assignment3\part2\OpenGL_Models\OpenGL_3D\glloadobj\glm.c(1407): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>X:\stuff\CS426\assignment3\part2\OpenGL_Models\OpenGL_3D\glloadobj\glm.c(1408): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>X:\stuff\CS426\assignment3\part2\OpenGL_Models\OpenGL_3D\glloadobj\glm.c(1466): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>X:\stuff\CS426\assignment3\part2\OpenGL_Models\OpenGL_3D\glloadobj\glm.c(1471): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>X:\stuff\CS426\assignment3\part2\OpenGL_Models\OpenGL_3D\glloadobj\glm.c(1473): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>X:\stuff\CS426\assignment3\part2\OpenGL_Models\OpenGL_3D\glloadobj\glm.c(1476): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>X:\stuff\CS426\assignment3\part2\OpenGL_Models\OpenGL_3D\glloadobj\glm.c(1477): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>X:\stuff\CS426\assignment3\part2\OpenGL_Models\OpenGL_3D\glloadobj\glm.c(1607): warning C4018: '<' : signed/unsigned mismatch
+     1>X:\stuff\CS426\assignment3\part2\OpenGL_Models\OpenGL_3D\glloadobj\glext.h(84): warning C4005: 'GL_BGR' : macro redefinition
+                 x:\stuff\cs426\assignment3\part2\opengl_models\opengl_3d\glloadobj\glmint.h(32) : see previous definition of 'GL_BGR'
+     1>X:\stuff\CS426\assignment3\part2\OpenGL_Models\OpenGL_3D\glloadobj\glext.h(85): warning C4005: 'GL_BGRA' : macro redefinition
+                 x:\stuff\cs426\assignment3\part2\opengl_models\opengl_3d\glloadobj\glmint.h(36) : see previous definition of 'GL_BGRA'
+     1>X:\stuff\CS426\assignment3\part2\OpenGL_Models\OpenGL_3D\glloadobj\glmimg.c(398): warning C4244: '=' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>X:\stuff\CS426\assignment3\part2\OpenGL_Models\OpenGL_3D\glloadobj\glmimg.c(399): warning C4244: '=' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>x:\stuff\cs426\assignment3\part2\opengl_models\opengl_3d\OpenGL_WinApp.h(127): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>x:\stuff\cs426\assignment3\part2\opengl_models\opengl_3d\OpenGL_WinApp.h(143): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>x:\stuff\cs426\assignment3\part2\opengl_models\opengl_3d\OpenGL_WinApp.h(148): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>x:\stuff\cs426\assignment3\part2\opengl_models\opengl_3d\OpenGL_WinApp.h(152): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>x:\stuff\cs426\assignment3\part2\opengl_models\opengl_3d\OpenGL_WinApp.h(154): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>x:\stuff\cs426\assignment3\part2\opengl_models\opengl_3d\OpenGL_WinApp.h(154): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>x:\stuff\cs426\assignment3\part2\opengl_models\opengl_3d\OpenGL_WinApp.h(154): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+         All outputs are up-to-date.
+       CoreResGen:
+         No resources are out of date with respect to their source files. Skipping resource generation.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"X:\stuff\CS426\assignment3\part2\OpenGL_Models\Debug\OpenGL_3D.exe" /INCREMENTAL /NOLOGO openGL32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:Debug\OpenGL_3D.Form1.resources /MANIFEST /ManifestFile:"Debug\OpenGL_3D.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"X:\stuff\CS426\assignment3\part2\OpenGL_Models\Debug\OpenGL_3D.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\OpenGL_3D.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         OpenGL_3D.vcxproj -> X:\stuff\CS426\assignment3\part2\OpenGL_Models\Debug\OpenGL_3D.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"X:\stuff\CS426\assignment3\part2\OpenGL_Models\Debug\OpenGL_3D.exe;#1" /manifest Debug\OpenGL_3D.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\OpenGL_3D.unsuccessfulbuild".
+         Touching "Debug\OpenGL_3D.lastbuildstate".
+     1>Done Building Project "X:\stuff\CS426\assignment3\part2\OpenGL_Models\OpenGL_3D\OpenGL_3D.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:30.61
